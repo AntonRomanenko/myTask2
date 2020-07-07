@@ -1,0 +1,70 @@
+.post-busineass {
+  display: flex;
+  justify-content: space-around;
+  margin: 70px auto;
+  flex-flow: row wrap;
+  max-width: 1200px; }
+  .post-busineass .post-thumbnail {
+    width: 420px; }
+    .post-busineass .post-thumbnail__link--img {
+      width: 420px;
+      height: 208px; }
+    .post-busineass .post-thumbnail__title {
+      font-family: "Asap", Sans-serif;
+      font-size: 18px;
+      font-weight: 900;
+      color: #da3300;
+      padding: 25px 0px;
+      line-height: 1.5;
+      letter-spacing: 0; }
+      .post-busineass .post-thumbnail__title:hover {
+        color: #323232; }
+    .post-busineass .post-thumbnail__date--box {
+      color: #44a8da;
+      font-family: "Lato", Sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+      padding-right: 15px; }
+      .post-busineass .post-thumbnail__date--box a {
+        text-decoration: none; }
+    .post-busineass .post-thumbnail__text {
+      color: #7a7f88;
+      font-family: "Lato", Sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      padding: 15px 0; }
+
+.we-aim {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  max-width: 1200px;
+  margin: auto; }
+
+.elementor-box {
+  max-width: 370px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 18px 10px; }
+  .elementor-box__title {
+    padding: 10px 0; }
+    .elementor-box__title a {
+      text-decoration: none;
+      color: #212529;
+      font-family: "Asap", Sans-serif;
+      font-size: 19px;
+      font-weight: 400; }
+  .elementor-box__wrap--text {
+    color: #7a7f88;
+    font-family: "Asap", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center; }
+
+.more-blog {
+  display: block;
+  width: 100%;
+  text-align: center; }
+
+/*# sourceMappingURL=section_prosperity.css.map */

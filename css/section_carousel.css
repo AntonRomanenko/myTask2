@@ -1,0 +1,96 @@
+.bg2 {
+  background-image: url(../img/parallax_pic2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 50px; }
+
+.main {
+  width: 70%;
+  margin: auto;
+  text-align: center; }
+  .main__title {
+    font-family: "Asap", Sans-serif;
+    font-size: 29px;
+    font-weight: 900;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    color: #ffff;
+    padding: 50px 0; }
+  .main__img {
+    color: #08b7f8;
+    font-size: 40px;
+    padding-bottom: 40px; }
+  .main__text {
+    font-family: "Lato", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: none;
+    font-style: italic;
+    color: #ffff; }
+  .main__signature {
+    padding-bottom: 70px;
+    color: #08b7f8; }
+
+.flex-style {
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  margin: auto;
+  flex-flow: row wrap; }
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 270px;
+  background-color: #212529;
+  margin: 15px; }
+  .wrapper__title {
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    padding: 10px 0 0 10px; }
+    .wrapper__title a {
+      color: #da3300; }
+  .wrapper__tagline {
+    color: #ffff;
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: none;
+    font-style: normal; }
+  .wrapper__text {
+    color: #ffff;
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: none;
+    font-style: normal; }
+  .wrapper__list {
+    padding: 0px 0 10px 10px;
+    color: #fff;
+    font-size: 30px;
+    margin-right: 5px; }
+    .wrapper__list a:hover {
+      transition: all .5s;
+      text-decoration: none !important; }
+  .wrapper .fa-facebook-square {
+    color: #3b5998; }
+  .wrapper .fa-twitter-square {
+    color: #1da1f2; }
+  .wrapper .fa-google-plus-square {
+    color: #dd4b39; }
+  .wrapper .fa-linkedin {
+    color: #0077b5; }
+
+.partners {
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 40px auto;
+  flex-flow: row wrap; }
+
+/*# sourceMappingURL=section_carousel.css.map */

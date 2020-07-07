@@ -1,0 +1,146 @@
+@import "./color";
+
+.bg2 {
+  background-image: url(../img/parallax_pic2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 50px;
+}
+
+.main {
+
+  width: 70%;
+  margin: auto;
+  text-align: center;
+
+  &__title {
+    font-family: "Asap", Sans-serif;
+    font-size: 29px;
+    font-weight: 900;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    color: $white;
+    padding: 50px 0;
+  }
+
+  // .main__img
+
+  &__img {
+    color: $statuss-bar;
+    font-size: 40px;
+    padding-bottom: 40px;
+  }
+
+  // .main__text
+
+  &__text {
+    font-family: "Lato", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: none;
+    font-style: italic;
+    color: $white;
+  }
+
+  // .main__signature
+
+  &__signature {
+    padding-bottom: 70px;
+    color: $statuss-bar;
+  }
+}
+
+.flex-style {
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  margin: auto;
+  flex-flow: row wrap;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 270px;
+  background-color: $black;
+  margin: 15px;
+
+  &__title {
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    padding: 10px 0 0 10px;
+
+    a {
+      color: $title-link;
+    }
+  }
+
+  &__tagline {
+    color: $white;
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: none;
+    font-style: normal;
+  }
+
+  &__text {
+    color: $white;
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: none;
+    font-style: normal;
+  }
+
+  &__list {
+    padding: 0px 0 10px 10px;
+    color: #fff;
+    font-size: 30px;
+    margin-right: 5px;
+
+    a {
+
+      &:hover {
+      transition: all .5s;
+      text-decoration: none !important;
+      }
+      
+    }
+
+
+  }
+
+  .fa-facebook-square {
+    color: $facebook;
+  }
+
+  .fa-twitter-square {
+    color: $twitter;
+  }
+
+  .fa-google-plus-square {
+    color: $google-plus;
+  }
+
+  .fa-linkedin {
+    color: $linkedin;
+  }
+}
+
+
+.partners {
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 40px auto;
+  flex-flow: row wrap;
+  // img {
+  //   width: 10%;
+  // }
+}

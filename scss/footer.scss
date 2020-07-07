@@ -1,0 +1,86 @@
+@import "./color";
+
+.footer-bg {
+  background-color: $black;
+  display: flex;
+  padding-bottom: 50px;
+}
+
+.footer-nav {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+
+  &__title {
+    color: $white;
+    font-family: "Asap", Sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+  // .footer-nav__list--item
+
+  &__list--item {
+
+    a {
+      color: $white;
+    }
+
+    span {
+      color: $white;
+    }
+
+    a:hover {
+      text-decoration: none !important;
+      color: $hover-link;
+    }
+
+  }
+}
+
+.brd-left {
+  border-left: 1px solid #2f2f34;
+  padding-left: 10px;
+  height: 190px;
+}
+
+.fa-facebook-square {
+  color: $facebook;
+}
+
+.fa-twitter-square {
+  color: $twitter;
+}
+
+.fa-google-plus-square {
+  color: $google-plus;
+}
+
+.fa-linkedin {
+  color: $linkedin;
+}
+
+.ftr-line {
+
+  &__line {
+    height: 1px;
+    background-color: $line-color;
+    
+  }
+}
+
+.copyright {
+  text-align: center;
+  background-color: $black;
+  padding: 40px 0;
+  &__title {
+    color: $white;
+    font-size: 14px;
+    a {
+      color: $white;
+    }
+  }
+}

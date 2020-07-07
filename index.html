@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>SANDMAN</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css"/>
+  </head>
+  <body>
+    <header class = 'header'>
+      <div class = 'header__bg' >
+        <div class = 'header__logo'>
+          <img lass = 'header__logo-img' src="./img/logo.png" alt="">
+          <span lass = 'header__logo-text' >CONSULTING SERVICES</span>
+        </div>
+        <div class = 'nav'>
+          <nav class = 'nav__list'>
+            <ul class = 'nav__ul'>
+              <li class = 'nav__ul-link'>
+                <a href="#">home</a>
+              </li>
+              <li class = 'nav__ul-link'>
+                <a href="#">about</a>
+              </li>
+              <li class = 'nav__ul-link'>
+                <a href="#">services</a>
+              </li>
+              <li class = 'nav__ul-link'>
+                <a href="#">contact</a>
+              </li>
+              <li class = 'nav__ul-link'>
+                <a href="#">blog</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="container-fluid cont-none">
+          <div class="row">
+            <div class="col-md-4 col-lg-3 navbar-container bg-light">
+              <!-- Вертикальное меню -->
+              <nav class="navbar navbar-expand-md navbar-light">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar">
+                  <!-- Пункты вертикального меню -->
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#link-1">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#link-2">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#link-3">SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#link-4">CONTACT</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#link-5">BLOG</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+            <div class="col-md-8 col-lg-9 content-container" style="background-color: #ffe0b2"></div>
+          </div>
+        </div>
+        <div class = 'search'>
+          <input class = 'search__inp' type="text" placeholder = 'search …' >
+          <button type="submit" class="search__submit">
+            <i class="jet-search__submit-icon fa fa-search"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div id="myslider" class="carousel slide" data-ride = 'carousel'>
+        <ol class="carousel-indicators">
+          <li data-target="#carouselexampleindicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselexampleindicators" data-slide-to="1"></li>
+          <li data-target="#carouselexampleindicators" data-slide-to="2"></li>
+          <li data-target="#carouselexampleindicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item ">
+            <img src="./img/ftr.jpg" alt="" class="d-blok w-100">
+          </div>
+          <div class="carousel-item active">
+            <img src="./img/ftr2.jpg" alt="" class="d-blok w-100">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Broaden your market edge</h3>
+              <p>We work with our clients as we do with our colleagues</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/ftr3.jpg" alt="" class="d-blok w-100">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Business works with technology</h3>
+              <p>We added technology to strategy. You get the multiplier effectя</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/ftr4.jpg" alt="" class="d-blok w-100">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Professional Consulting Services</h3>
+              <p>We are the trusted advisor to the world's leading businesses</p>
+            </div>
+          </div>
+          <a href="#myslider" class="carousel-control-prev" role='button' data-slide='prev'>
+            <span class="carousel-control-prev-icon" aria-hidden='true' ></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a href="#myslider" class="carousel-control-next" role='button' data-slide='next'>
+            <span class="carousel-control-next-icon" aria-hidden='true' ></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class = 'info-box'>
+        <div class = 'wrapper-aside'>
+          <div class = 'wrapper-aside__img'>
+            <img src="./img/icon1.png" alt=""/>
+          </div>
+          <div class = 'wrapper-aside__content'>
+            <h3 class = 'wrapper-aside__content--title'>business consulting</h3>
+            <p class = 'wrapper-aside__content--text'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo invtatis et quasi architecto beatae.</p>
+          </div>
+        </div>
+        <div class = 'wrapper-aside'>
+          <div class = 'wrapper-aside__img'>
+            <img src="./img/icon2.png" alt=""/>
+          </div>
+          <div class = 'wrapper-aside__content'>
+            <h3 class = 'wrapper-aside__content--title'>It management</h3>
+            <p class = 'wrapper-aside__content--text'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo invtatis et quasi architecto beatae.</p>
+          </div>
+        </div>
+        <div class = 'wrapper-aside'>
+          <div class = 'wrapper-aside__img'>
+            <img src="./img/icon3.png" alt=""/>
+          </div>
+          <div class = 'wrapper-aside__content'>
+            <h3 class = 'wrapper-aside__content--title'>new Strategy</h3>
+            <p class = 'wrapper-aside__content--text'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo invtatis et quasi architecto beatae.</p>
+          </div>
+        </div>
+      </div>
+      <div class = 'box'>
+        <div class = 'box__line'></div>
+      </div>
+    </section>
+    <section>
+      <div>
+        <h2 class = 'title-strategy'>STRATEGY IS NOTHING WITHOUT EXECUTION</h2>
+        <p class = 'title-strategy__line'></p>
+      </div>
+      <div>
+        <div  class = 'your-class'>
+          <div class = 'your-class__wrap'>
+            <img class = 'your-class__wrap--img' src="./img/img_1.jpg" alt="">
+            <div class = 'your-class__wrap--bg'>
+              <p class = 'text'>Read more</p>
+            </div>
+          </div>
+          <div class = 'your-class__wrap'>
+            <img class = 'your-class__wrap--img' src="./img/img_2.jpg" alt="">
+            <div class = 'your-class__wrap--bg'>
+              <p class = 'text'>Read more</p>
+            </div>
+          </div>
+          <div class = 'your-class__wrap'>
+            <img class = 'your-class__wrap--img' src="./img/img_3.jpg" alt="">
+            <div class = 'your-class__wrap--bg'>
+              <p class = 'text'>Read more</p>
+            </div>
+          </div>
+          <div class = 'your-class__wrap'>
+            <img class = 'your-class__wrap--img' src="./img/img_4.jpg" alt="">
+            <div class = 'your-class__wrap--bg'>
+              <p class = 'text'>Read more</p>
+            </div>
+          </div>
+          <div class = 'your-class__wrap'>
+            <img class = 'your-class__wrap--img' src="./img/img_5.jpg" alt="">
+            <div class = 'your-class__wrap--bg'>
+              <p class = 'text'>Read more</p>
+            </div>
+          </div>
+          <div class = 'your-class__wrap'>
+            <img class = 'your-class__wrap--img' src="./img/img_6.jpg" alt="">
+            <div class = 'your-class__wrap--bg'>
+              <p class = 'text'>Read more</p>
+            </div>
+          </div>
+          <div class = 'your-class__wrap'>
+            <img class = 'your-class__wrap--img' src="./img/img_7.jpg" alt="">
+            <div class = 'your-class__wrap--bg'>
+              <p class = 'text'>Read more</p>
+            </div>
+          </div>
+          <div class = 'your-class__wrap'>
+            <img class = 'your-class__wrap--img' src="./img/img_8.jpg" alt="">
+            <div class = 'your-class__wrap--bg'>
+              <p class = 'text'>Read more</p>
+            </div>
+          </div>
+        </div>
+        <div class = 'more-blog'>
+          <button class = 'more-blog__btn'>Read more</button>
+        </div>
+        <div class = 'box'>
+          <div class = 'box__line'></div>
+        </div>
+      </div>
+    </section>
+    <section class = 'strategy'>
+      <div class = 'wrapper-widget'>
+        <h2 class = 'wrapper-widget__title'>What we do</h2>
+        <ul class = 'widget-container'>
+          <li class = 'widget-container__element'>
+            <a href="#" class = 'widget-container__element--link'>
+              <i class="fa fa-plus-square" aria-hidden="true"></i>
+              <span class = 'widget-container__element--border'>Epsum factorial non deposit quid pro quo hic escorol</span>
+            </a>
+          </li>
+          <li class = 'widget-container__element'>
+            <a href="#" class = 'widget-container__element--link'>
+              <i class="fa fa-plus-square" aria-hidden="true"></i>
+              <span class = 'widget-container__element--border'>Olypian quarrel  gorilla congolium</span>
+            </a>
+          </li>
+          <li class = 'widget-container__element'>
+            <a href="#" class = 'widget-container__element--link'>
+              <i class="fa fa-plus-square" aria-hidden="true"></i>
+              <span class = 'widget-container__element--border'>Gorilla congolium sic ad nauseum uvlaki ignitus </span>
+            </a>
+          </li>
+          <li class = 'widget-container__element'>
+            <a href="#" class = 'widget-container__element--link'>
+              <i class="fa fa-plus-square" aria-hidden="true"></i>
+              <span class = 'widget-container__element--border'>Defacto lingo est igpay atinlay quee</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class = 'wrapper-widget'>
+        <h2 class = 'wrapper-widget__title'>Out services</h2>
+        <div class = 'proger'>
+          <div class = 'proger-box'>
+            <div class = 'proger__wrap'>
+              <i class="proger__a1--icon fas fa-hand-point-right"></i>
+              <span class = 'proger__wrap--text'>Epsum factorial non deposit quid pro quo hic escorol</span>
+            </div>
+            <div class = 'proger__line'>
+              <div class = 'proger__line--bg1'>80%</div>
+            </div>
+          </div>
+          <div class = 'proger-box'>
+            <div class = 'proger__wrap'>
+              <i class="proger__a1--icon fa fa-leaf"></i>
+              <span class = 'proger__wrap--text'>Epsum factorial non deposit quid pro quo hic escorol</span>
+            </div>
+            <div class = 'proger__line'>
+              <div class = 'proger__line--bg2'>50%</div>
+            </div>
+          </div>
+          <div class = 'proger-box'>
+            <div class = 'proger__wrap'>
+              <i class="proger__a1--icon fas fa-sun"></i>
+              <span class = 'proger__wrap--text'>Epsum factorial non deposit quid pro quo hic escorol</span>
+            </div>
+            <div class = 'proger__line'>
+              <div class = 'proger__line--bg3'>20%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <section>
+      <div class = 'box'>
+        <div class = 'box__line'></div>
+      </div>
+      <div>
+        <h2 class = 'title-strategy a2'>BUILDING YOUR BUSINESS GROWTH & PROSPERITY</h2>
+        <p class = 'title-strategy__line'></p>
+      </div>
+      <div class = 'post-busineass'>
+        <div class = 'post-thumbnail'>
+          <a class = 'post-thumbnail__link' href="#">
+            <img class = 'post-thumbnail__link--img' src="./img/img_33-900x.jpg" alt="foto">
+          </a>
+          <h4 class = 'post-thumbnail__title' >Sod dictum metus pharetra nec fusce bibendum dapibus 
+          pretium nunc eu sem vitae
+          </h4>
+          <div class = 'post-thumbnail__date'>
+            <span class = 'post-thumbnail__date--box'>
+              <a class = 'date-link' href="#">March 25, 2019</a>
+            </span>
+            <span class = 'post-thumbnail__date--box'>
+              <a class = 'date-link' href="#">Comments: 0</a>
+            </span>
+          </div>
+          <div class = 'post-thumbnail__text'>Aliquam dapibus tincidunt metus. Praesent justo dolor, lobortis quis, 
+          lobortis dignissim, pulvinar ac, lorem.
+          </div>
+        </div>
+        <div class = 'post-thumbnail'>
+          <a class = 'post-thumbnail__link' href="#">
+            <img class = 'post-thumbnail__link--img' src="./img/img_32-900x1.jpg" alt="foto">
+          </a>
+          <h4 class = 'post-thumbnail__title' >Sodales tempor lectus sit amet dictum metus pharetra nec fusce bibendum dapibus
+          </h4>
+          <div class = 'post-thumbnail__date'>
+            <span class = 'post-thumbnail__date--box'>
+              <a class = 'date-link' href="#">March 25, 2019</a>
+            </span>
+            <span class = 'post-thumbnail__date--box'>
+              <a class = 'date-link' href="#">Comments: 0</a>
+            </span>
+          </div>
+          <div class = 'post-thumbnail__text'>Aliquam dapibus tincidunt metus. Praesent justo dolor, lobortis quis, 
+          lobortis dignissim, pulvinar ac, lorem.
+          </div>
+        </div>
+        <div class = 'post-thumbnail'>
+          <a class = 'post-thumbnail__link' href="#">
+            <img class = 'post-thumbnail__link--img' src="./img/img_31-900x2.jpg" alt="foto">
+          </a>
+          <h4 class = 'post-thumbnail__title' >Gravida a molestie eu dictum ac augue integer sodales tempor lectus sit amet dictum
+          </h4>
+          <div class = 'post-thumbnail__date'>
+            <span class = 'post-thumbnail__date--box'>
+              <a class = 'date-link' href="#">March 25, 2019</a>
+            </span>
+            <span class = 'post-thumbnail__date--box'>
+              <a class = 'date-link' href="#">Comments: 0</a>
+            </span>
+          </div>
+          <div class = 'post-thumbnail__text'>Aliquam dapibus tincidunt metus. Praesent justo dolor, lobortis quis, 
+          lobortis dignissim, pulvinar ac, lorem.
+          </div>
+        </div>
+        <div class = 'post-thumbnail'>
+          <a class = 'post-thumbnail__link' href="#">
+            <img class = 'post-thumbnail__link--img' src="./img/img_30-900x3.jpg" alt="foto">
+          </a>
+          <h4 class = 'post-thumbnail__title' >Sod dictum metus pharetra nec fusce bibendum dapibus 
+          pretium nunc eu sem vitae
+          </h4>
+          <div class = 'post-thumbnail__date'>
+            <span class = 'post-thumbnail__date--box'>
+              <a class = 'date-link' href="#">March 25, 2019</a>
+            </span>
+            <span class = 'post-thumbnail__date--box'>
+              <a class = 'date-link' href="#">Comments: 0</a>
+            </span>
+          </div>
+          <div class = 'post-thumbnail__text'>Aliquam dapibus tincidunt metus. Praesent justo dolor, lobortis quis, 
+          lobortis dignissim, pulvinar ac, lorem.
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div>
+        <h2 class = 'title-strategy a2'>WE AIM TO DEVELOP PRODUCTIVITY AND INNOVATION</h2>
+        <p class = 'title-strategy__line'></p>
+      </div>
+      <div class = 'we-aim'>
+        <div class = 'elementor-box'>
+          <a class = 'elementor-box__img' href="#">
+            <img src="./img/icon_post01.png" alt="">
+          </a>
+          <h3 class = 'elementor-box__title'>
+            <a class = 'elementor-box__title--link' href="#">Accusantium doloremque</a>
+          </h3>
+          <div class = 'elementor-box__wrap'>
+            <p class = 'elementor-box__wrap--text'>Sed ut perspiciatis unde oiste natus error 
+            sit voluptatem accusantiu doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+            </p>
+          </div>
+        </div>
+        <div class = 'elementor-box'>
+          <a class = 'elementor-box__img' href="#">
+            <img src="./img/icon_post02.png" alt="">
+          </a>
+          <h3 class = 'elementor-box__title'>
+            <a class = 'elementor-box__title--link' href="#">Accusantium doloremque</a>
+          </h3>
+          <div class = 'elementor-box__wrap'>
+            <p class = 'elementor-box__wrap--text'>Sed ut perspiciatis unde oiste natus error 
+            sit voluptatem accusantiu doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+            </p>
+          </div>
+        </div>
+        <div class = 'elementor-box'>
+          <a class = 'elementor-box__img' href="#">
+            <img src="./img/icon_post03.png" alt="">
+          </a>
+          <h3 class = 'elementor-box__title'>
+            <a class = 'elementor-box__title--link' href="#">Accusantium doloremque</a>
+          </h3>
+          <div class = 'elementor-box__wrap'>
+            <p class = 'elementor-box__wrap--text'>Sed ut perspiciatis unde oiste natus error 
+            sit voluptatem accusantiu doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+            </p>
+          </div>
+        </div>
+        <div class = 'elementor-box'>
+          <a class = 'elementor-box__img' href="#">
+            <img src="./img/icon_post04.png" alt="">
+          </a>
+          <h3 class = 'elementor-box__title'>
+            <a class = 'elementor-box__title--link' href="#">Accusantium doloremque</a>
+          </h3>
+          <div class = 'elementor-box__wrap'>
+            <p class = 'elementor-box__wrap--text'>Sed ut perspiciatis unde oiste natus error 
+            sit voluptatem accusantiu doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+            </p>
+          </div>
+        </div>
+        <div class = 'elementor-box'>
+          <a class = 'elementor-box__img' href="#">
+            <img src="./img/icon_post05.png" alt="">
+          </a>
+          <h3 class = 'elementor-box__title'>
+            <a class = 'elementor-box__title--link' href="#">Accusantium doloremque</a>
+          </h3>
+          <div class = 'elementor-box__wrap'>
+            <p class = 'elementor-box__wrap--text'>Sed ut perspiciatis unde oiste natus error 
+            sit voluptatem accusantiu doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+            </p>
+          </div>
+        </div>
+        <div class = 'elementor-box'>
+          <a class = 'elementor-box__img' href="#">
+            <img src="./img/icon_post06.png" alt="">
+          </a>
+          <h3 class = 'elementor-box__title'>
+            <a class = 'elementor-box__title--link' href="#">Accusantium doloremque</a>
+          </h3>
+          <div class = 'elementor-box__wrap'>
+            <p class = 'elementor-box__wrap--text'>Sed ut perspiciatis unde oiste natus error 
+            sit voluptatem accusantiu doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+            </p>
+          </div>
+        </div>
+        <div class = 'elementor-box'>
+          <a class = 'elementor-box__img' href="#">
+            <img src="./img/icon_post07.png" alt="">
+          </a>
+          <h3 class = 'elementor-box__title'>
+            <a class = 'elementor-box__title--link' href="#">Accusantium doloremque</a>
+          </h3>
+          <div class = 'elementor-box__wrap'>
+            <p class = 'elementor-box__wrap--text'>Sed ut perspiciatis unde oiste natus error 
+            sit voluptatem accusantiu doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+            </p>
+          </div>
+        </div>
+        <div class = 'elementor-box'>
+          <a class = 'elementor-box__img' href="#">
+            <img src="./img/icon_post08.png" alt="">
+          </a>
+          <h3 class = 'elementor-box__title'>
+            <a class = 'elementor-box__title--link' href="#">Accusantium doloremque</a>
+          </h3>
+          <div class = 'elementor-box__wrap'>
+            <p class = 'elementor-box__wrap--text'>Sed ut perspiciatis unde oiste natus error 
+            sit voluptatem accusantiu doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+            </p>
+          </div>
+        </div>
+        <div class = 'elementor-box'>
+          <a class = 'elementor-box__img' href="#">
+            <img src="./img/icon_post09.png" alt="">
+          </a>
+          <h3 class = 'elementor-box__title'>
+            <a class = 'elementor-box__title--link' href="#">Accusantium doloremque</a>
+          </h3>
+          <div class = 'elementor-box__wrap'>
+            <p class = 'elementor-box__wrap--text'>Sed ut perspiciatis unde oiste natus error 
+            sit voluptatem accusantiu doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+            </p>
+          </div>
+        </div>
+        <div class = 'more-blog'>
+          <button class = 'more-blog__btn'>Read more</button>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div id="carouselExampleIndicators" class="carousel slide bg2" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class = 'main'>
+              <h2 class = 'main__title'>Testimonials</h2>
+              <i class="fa fa-quote-left main__img"></i>
+              <div class = 'main__text'>Aenean nonummy hendrerit mau phasellu porta. Fusce suscipit varius mi sed. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio morbi. Ut viverra…</div>
+              <div class = 'main__signature'>Mark Bridges</div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class = 'main'>
+              <h2 class = 'main__title'>Testimonials</h2>
+              <i class="fa fa-quote-left main__img"></i>
+              <div class = 'main__text'>Vestibnisl, porta vel, sceleris lesuada at, neque. Vivamus eget nibh. Etiam curs leo vel metus. Nulla facilisi. Aenean nec eros. Vestibulum ante ipsum. primis in faucibus orci luctus et ultrices posuere cubilia.…</div>
+              <div class = 'main__signature'>Mark Bridges</div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class = 'main'>
+              <h2 class = 'main__title'>Testimonials</h2>
+              <i class="fa fa-quote-left main__img"></i>
+              <div class = 'main__text'>Vestibnisl, porta vel, sceleris lesuada at, neque. Vivamus eget nibh. Etiam curs leo vel metus. Nulla facilisi. Aenean nec eros. Vestibulum ante ipsum. primis in faucibus orci luctus et ultrices posuere cubilia.…</div>
+              <div class = 'main__signature'>Mark Bridges</div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class = 'main'>
+              <h2 class = 'main__title'>Testimonials</h2>
+              <i class="fa fa-quote-left main__img"></i>
+              <div class = 'main__text'>Vestibnisl, porta vel, sceleris lesuada at, neque. Vivamus eget nibh. Etiam curs leo vel metus. Nulla facilisi. Aenean nec eros. Vestibulum ante ipsum. primis in faucibus orci luctus et ultrices posuere cubilia.…</div>
+              <div class = 'main__signature'>Mark Bridges</div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <div>
+        <h2 class = 'title-strategy a2'>BUILDING YOUR BUSINESS GROWTH & PROSPERITY</h2>
+        <p class = 'title-strategy__line'></p>
+      </div>
+    </section>
+    <section class = 'flex-style'>
+      <div class = 'wrapper'>
+        <img class = 'wrapper__picture' src="./img/img_1-270x250.jpg" alt="">
+        <h2 class = 'wrapper__title'>
+          <a href="#">Andy Taylor</a>
+        </h2>
+        <p class = 'wrapper__tagline'>Vivamus eget nibh</p>
+        <p class = 'wrapper__text'>Nulla facilisi. Aenean nec eros. Vestibulum ante ipsum primis in 
+          faucibu. Suspendisse congue 1986 viverra…
+        </p>
+        <div class = 'wrapper__list'>
+          <a class = 'wrapper__list--socials' href="#">
+            <i class="fab fa-facebook-square"></i>
+          </a>
+          <a href="">
+            <i class="fab fa-twitter-square"></i>
+          </a>
+          <a href="">
+            <i class="fab fa-google-plus-square"></i>
+          </a>
+          <a href="">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+      <div class = 'wrapper'>
+        <img class = 'wrapper__picture' src="./img/img_2-270x250.jpg" alt="">
+        <h2 class = 'wrapper__title'>
+          <a href="#">Andy Taylor</a>
+        </h2>
+        <p class = 'wrapper__tagline'>Vivamus eget nibh</p>
+        <p class = 'wrapper__text'>Nulla facilisi. Aenean nec eros. Vestibulum ante ipsum primis in 
+          faucibu. Suspendisse congue 1986 viverra…
+        </p>
+        <div class = 'wrapper__list'>
+          <a class = 'wrapper__list--socials' href="#">
+            <i class="fab fa-facebook-square"></i>
+          </a>
+          <a href="">
+            <i class="fab fa-twitter-square"></i>
+          </a>
+          <a href="">
+            <i class="fab fa-google-plus-square"></i>
+          </a>
+          <a href="">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+      <div class = 'wrapper'>
+        <img class = 'wrapper__picture' src="./img/img_3-270x250.jpg" alt="">
+        <h2 class = 'wrapper__title'>
+          <a href="#">Andy Taylor</a>
+        </h2>
+        <p class = 'wrapper__tagline'>Vivamus eget nibh</p>
+        <p class = 'wrapper__text'>Nulla facilisi. Aenean nec eros. Vestibulum ante ipsum primis in 
+          faucibu. Suspendisse congue 1986 viverra…
+        </p>
+        <div class = 'wrapper__list'>
+          <a class = 'wrapper__list--socials' href="#">
+            <i class="fab fa-facebook-square"></i>
+          </a>
+          <a href="">
+            <i class="fab fa-twitter-square"></i>
+          </a>
+          <a href="">
+            <i class="fab fa-google-plus-square"></i>
+          </a>
+          <a href="">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+      <div class = 'wrapper'>
+        <img class = 'wrapper__picture' src="./img/img_4-270x250.jpg" alt="">
+        <h2 class = 'wrapper__title'>
+          <a href="#">Andy Taylor</a>
+        </h2>
+        <p class = 'wrapper__tagline'>Vivamus eget nibh</p>
+        <p class = 'wrapper__text'>Nulla facilisi. Aenean nec eros. Vestibulum ante ipsum primis in 
+          faucibu. Suspendisse congue 1986 viverra…
+        </p>
+        <div class = 'wrapper__list'>
+          <a class = 'wrapper__list--socials' href="#">
+            <i class="fab fa-facebook-square"></i>
+          </a>
+          <a href="">
+            <i class="fab fa-twitter-square"></i>
+          </a>
+          <a href="">
+            <i class="fab fa-google-plus-square"></i>
+          </a>
+          <a href="">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class = 'partners'>
+        <img src="./img/partners-1.jpg" alt="partners">
+        <img src="./img/partners-2.jpg" alt="partners">
+        <img src="./img/partners-3.jpg" alt="partners">
+        <img src="./img/partners-4.jpg" alt="partners">
+        <img src="./img/partners-5.jpg" alt="partners">
+        <img src="./img/partners-6.jpg" alt="partners">
+        <img src="./img/partners-7.jpg" alt="partners">
+        <img src="./img/partners-8.jpg" alt="partners">
+        <img src="./img/partners-9.jpg" alt="partners">
+        <img src="./img/partners-10.jpg" alt="partners">
+      </div>
+    </section>
+    <section>
+      <div id = 'map'></div>
+    </section>
+    <footer>
+      <div class = 'footer-bg'>
+        <div class = 'footer-nav'>
+          <h2 class = 'footer-nav__title'>ABOUT</h2>
+          <ul class = 'footer-nav__list'>
+            <li class = 'footer-nav__list--item'>
+              <a href="#">Home</a>
+            </li>
+            <li class = 'footer-nav__list--item'>
+              <a href='#'>About</a>
+            </li>
+            <li class = 'footer-nav__list--item'>
+              <a href='#'>Services</a>
+            </li>
+            <li class = 'footer-nav__list--item'>
+              <a href='#'>Contacts</a>
+            </li>
+            <li class = 'footer-nav__list--item'>
+              <a href='#'>Blog</a>
+            </li>
+          </ul>
+        </div>
+        <div class = 'footer-nav'>
+          <h2 class = 'footer-nav__title'>Media</h2>
+          <ul class = 'footer-nav__list'>
+            <li class = 'footer-nav__list--item'>
+              <a href='#'>News</a>
+            </li>
+            <li class = 'footer-nav__list--item'>
+              <a href='#'>Press</a>
+            </li>
+            <li class = 'footer-nav__list--item'>
+              <a href='#'>Videos</a>
+            </li>
+            <li class = 'footer-nav__list--item'>
+              <a href='#'>Photos</a>
+            </li>
+          </ul>
+        </div>
+        <div class = 'footer-nav'>
+          <h2 class = 'footer-nav__title'>News</h2>
+          <ul class = 'footer-nav__list'>
+            <li class = 'footer-nav__list--item'>
+              <a href="#">New Releases</a>
+            </li>
+            <li class = 'footer-nav__list--item'>
+              <a href='#'>Events</a>
+            </li>
+            <li class = 'footer-nav__list--item'>
+              <a href='#'>Now To</a>
+            </li>
+            <li class = 'footer-nav__list--item'>
+              <a href='#'>Real Help</a>
+            </li>
+            <li class = 'footer-nav__list--item'>
+              <a href='#'>Charity</a>
+            </li>
+            <li class = 'footer-nav__list--item'>
+              <a href='#'>Contests</a>
+            </li>
+          </ul>
+        </div>
+        <div class = 'footer-nav'>
+          <h2 class = 'footer-nav__title'>GET IN TOUCH</h2>
+          <ul class = 'footer-nav__list'>
+            <li class = 'footer-nav__list--item'>
+              <a href="#">E-mail: mail@demolink.org</a>
+            </li>
+            <li class = 'footer-nav__list--item'>
+              <a href='#'>Events</a>
+            </li>
+            <li class = 'footer-nav__list--item'>
+              <span>8901 Marmora Road</span>
+            </li>
+            <li class = 'footer-nav__list--item'>
+              <span> Glasgow, DO4 89GR.</span>
+            </li>
+            <li class = 'footer-nav__list--item'>
+              <a href='#'>Freephone: +1 800 559 6580</a>
+            </li>
+            <li class = 'footer-nav__list--item'>
+              <a href='#'>Telephone: +1 959 603 6035</a>
+            </li>
+            <li class = 'footer-nav__list--item'>
+              <a href='#'>FAX: + 1 504 889 9898</a>
+            </li>
+          </ul>
+        </div>
+        <div class = 'footer-nav brd-left'>
+          <h2 class = 'footer-nav__title'>CONNECT ONLINE</h2>
+          <div class = 'wrapper__list'>
+            <a class = 'wrapper__list--socials' href="#">
+              <i class="fab fa-facebook-square"></i>
+            </a>
+            <a href="">
+              <i class="fab fa-twitter-square"></i>
+            </a>
+            <a href="">
+              <i class="fab fa-google-plus-square"></i>
+            </a>
+            <a href="">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class = 'ftr-line'>
+        <div class = 'ftr-line__line'></div>
+      </div>
+      <div class = 'copyright'>
+        <h2 class = 'copyright__title'>Copyright © 2019 | Privacy Policy Theme design by <a href="#">Zemez</a>
+        </h2>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src = './script.js' ></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCxtV7WKcHCX4NA9Oided-uiB8fWcU7NUg&callback=initMap"></script>
+  </body>
+</html>
