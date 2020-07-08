@@ -476,6 +476,8 @@
     width: 100%; }
   .post-thumbnail__title {
     font-size: 16px !important; }
+  .strategy {
+    padding: 0 10px; }
   .partners {
     justify-items: center;
     display: grid;
