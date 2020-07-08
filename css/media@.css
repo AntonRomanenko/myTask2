@@ -1,8 +1,8 @@
-@media (max-width: 800px) {
+@media (max-width: 768px) {
   .cont-none {
     display: block !important; } }
 
-@media (min-width: 600px) and (max-width: 800px) {
+@media (min-width: 600px) and (max-width: 768px) {
   .header .header__bg .nav {
     display: none; }
   .header__bg {
@@ -60,7 +60,10 @@
   .header__bg {
     flex-direction: column; }
   .header__logo {
-    width: 100% !important; }
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
   .header__logo img {
     width: max-content !important; }
   .header__bg .search {
@@ -93,6 +96,16 @@
     width: 100%;
     text-align: center;
     height: 90px; }
+  .proger__line--bg1 {
+    max-width: 400px;
+    width: 100%; }
+  .post-busineass .post-thumbnail__link--img {
+    max-width: 400px;
+    width: 100%;
+    height: auto; }
+  .post-thumbnail {
+    max-width: 400px;
+    width: 100%; }
   .footer-bg {
     padding-bottom: 0; }
   .wrapper {

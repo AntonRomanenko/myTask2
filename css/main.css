@@ -27,7 +27,8 @@
     border: none; }
     .more-blog__btn:hover {
       background-color: #222222;
-      transition: 0.4s; }
+      transition: 0.6s;
+      transform: scale(1.1); }
 
 .your-class__wrap {
   position: relative; }
@@ -278,9 +279,11 @@
     color: #fff;
     font-size: 30px;
     margin-right: 5px; }
-    .wrapper__list a:hover {
-      transition: all .5s;
+    .wrapper__list a {
       text-decoration: none !important; }
+      .wrapper__list a i:hover {
+        transition: all .5s;
+        transform: scale(1.1) !important; }
   .wrapper .fa-facebook-square {
     color: #3b5998; }
   .wrapper .fa-twitter-square {
@@ -353,11 +356,11 @@
     .copyright__title a {
       color: #ffff; }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
   .cont-none {
     display: block !important; } }
 
-@media (min-width: 600px) and (max-width: 800px) {
+@media (min-width: 600px) and (max-width: 768px) {
   .header .header__bg .nav {
     display: none; }
   .header__bg {
@@ -415,7 +418,10 @@
   .header__bg {
     flex-direction: column; }
   .header__logo {
-    width: 100% !important; }
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
   .header__logo img {
     width: max-content !important; }
   .header__bg .search {
@@ -448,6 +454,16 @@
     width: 100%;
     text-align: center;
     height: 90px; }
+  .proger__line--bg1 {
+    max-width: 400px;
+    width: 100%; }
+  .post-busineass .post-thumbnail__link--img {
+    max-width: 400px;
+    width: 100%;
+    height: auto; }
+  .post-thumbnail {
+    max-width: 400px;
+    width: 100%; }
   .footer-bg {
     padding-bottom: 0; }
   .wrapper {
@@ -492,7 +508,8 @@ body {
     .header__logo img {
       display: block;
       margin-bottom: 5px;
-      width: 100%; }
+      width: 100%;
+      cursor: pointer; }
     .header__logo span {
       display: flex;
       justify-content: flex-end;
@@ -655,11 +672,11 @@ body {
 .cont-none {
   display: none !important; }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
   .cont-none {
     display: block !important; } }
 
-@media (min-width: 600px) and (max-width: 800px) {
+@media (min-width: 600px) and (max-width: 768px) {
   .header .header__bg .nav {
     display: none; }
   .header__bg {

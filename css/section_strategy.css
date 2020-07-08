@@ -27,7 +27,8 @@
     border: none; }
     .more-blog__btn:hover {
       background-color: #222222;
-      transition: 0.4s; }
+      transition: 0.6s;
+      transform: scale(1.1); }
 
 .your-class__wrap {
   position: relative; }

@@ -1,13 +1,13 @@
 @import "./color";
 
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
   .cont-none {
     display: block !important;
   }
 }
 
-@media (min-width: 600px) and (max-width: 800px) {
+@media (min-width: 600px) and (max-width: 768px) {
 
   .header .header__bg .nav {
     display: none;
@@ -111,6 +111,9 @@
 
   .header__logo {
     width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .header__logo img {
@@ -128,24 +131,28 @@
     flex-direction: column;
     align-items: center;
   }
-  .info-box .wrapper-aside {
-   width: 100%;
- }
- .title-strategy {
-   font-size: 1.6rem !important;
- }
- .widget-container__element {
-   width: 100%;
- }
- .proger__line {
-   width: auto !important;
- }
 
- .flex-style {
-  flex-flow: column;
-  align-items: center;
-  background-color: #f5f6f7;
-  padding: 15px 0;
+  .info-box .wrapper-aside {
+    width: 100%;
+  }
+
+  .title-strategy {
+    font-size: 1.6rem !important;
+  }
+
+  .widget-container__element {
+    width: 100%;
+  }
+
+  .proger__line {
+    width: auto !important;
+  }
+
+  .flex-style {
+    flex-flow: column;
+    align-items: center;
+    background-color: #f5f6f7;
+    padding: 15px 0;
   }
 
   .footer-bg {
@@ -162,6 +169,21 @@
     height: 90px;
   }
 
+  .proger__line--bg1 {
+    max-width: 400px;
+    width: 100%;
+  }
+  .post-busineass .post-thumbnail__link--img {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+  }
+
+  .post-thumbnail {
+    max-width: 400px;
+    width: 100%;
+  }
+
   .footer-bg {
     padding-bottom: 0;
   }
@@ -173,6 +195,7 @@
   .copyright {
     padding: 31px 0;
   }
+
   .post-thumbnail {
     width: auto;
   }
@@ -180,16 +203,18 @@
   .post-thumbnail__link--img {
     width: 100%;
   }
+
   .post-thumbnail__title {
     font-size: 16px !important;
   }
 
   .partners {
-  justify-items: center;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-    img { 
-    width: 50%;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    img {
+      width: 50%;
     }
   }
 }

@@ -74,9 +74,11 @@
     color: #fff;
     font-size: 30px;
     margin-right: 5px; }
-    .wrapper__list a:hover {
-      transition: all .5s;
+    .wrapper__list a {
       text-decoration: none !important; }
+      .wrapper__list a i:hover {
+        transition: all .5s;
+        transform: scale(1.1) !important; }
   .wrapper .fa-facebook-square {
     color: #3b5998; }
   .wrapper .fa-twitter-square {

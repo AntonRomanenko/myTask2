@@ -38,6 +38,7 @@ body {
       display: block;
       margin-bottom: 5px;
       width: 100%;
+      cursor: pointer;
     }
 
     span {
@@ -268,13 +269,13 @@ body {
   display: none !important;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
   .cont-none {
     display: block !important;
   }
 }
 
-@media (min-width: 600px) and (max-width: 800px) {
+@media (min-width: 600px) and (max-width: 768px) {
 
   .header .header__bg .nav {
     display: none;

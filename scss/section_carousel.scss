@@ -105,10 +105,11 @@
     margin-right: 5px;
 
     a {
-
-      &:hover {
-      transition: all .5s;
       text-decoration: none !important;
+      i:hover {
+      transition: all .5s;
+      
+      transform: scale(1.1) !important;
       }
       
     }
@@ -140,7 +141,4 @@
   max-width: 1200px;
   margin: 40px auto;
   flex-flow: row wrap;
-  // img {
-  //   width: 10%;
-  // }
 }
