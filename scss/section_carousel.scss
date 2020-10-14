@@ -142,3 +142,9 @@
   margin: 40px auto;
   flex-flow: row wrap;
 }
+
+.carousel-item {
+  img { 
+    max-height: 640px;
+  }
+}
